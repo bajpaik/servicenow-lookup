@@ -1,0 +1,20 @@
+{
+    "name": "SN Search",
+    "description": "Adds support to the Chrome omnibox to search Service-Now tickets.",
+    "version": "1.0.1",
+    "manifest_version": 2,
+    "omnibox": {
+      "keyword":"sn"  
+    },
+    "icons": { 
+        "128": "icon_128.png", 
+        "48": "icon_48.png", 
+        "16": "icon_16.png" 
+    },
+    "background": { 
+        "scripts":["background.js"]
+    },
+    "minimum_chrome_version":"9",
+    "options_page":"options.html",
+    "permissions":[ "storage" ]
+}
