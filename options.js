@@ -1,3 +1,6 @@
+/**
+ * 06:03:15 created by Rutul Patel aKa RTL aKa fACE
+ */
 // Saves options to chrome.storage
 function save_options() {
   var sn_url = document.getElementById('sn_url').value;
@@ -11,6 +14,7 @@ function save_options() {
       status.textContent = '';
     }, 750);
   });
+    window.close();
 }
 
 // Restores select box and checkbox state using the preferences
