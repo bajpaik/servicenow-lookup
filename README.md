@@ -5,6 +5,7 @@ About
 Service-Now Search is a Chrome extension for searching the tickets on Service-Now via the omnibox.
 
 You can install the extension from the Chrome Web Store:
+https://chrome.google.com/webstore/detail/sn-search/idkeaffmcbakhghefaafgpcdlnngkjge
     
 This product is not affiliated with Service-Now.
 
