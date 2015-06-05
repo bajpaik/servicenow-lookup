@@ -1,5 +1,5 @@
 /**
- * 06:03:15 created by fACE
+ * 06:03:15 created by Rutul Patel aKa RTL aKa fACE
  */
 
 
@@ -32,5 +32,13 @@ chrome.omnibox.onInputEntered.addListener(function(text){
         sn_url: 'https://sandbox.service-now.com'
     }, function(itm) {
         navigate(itm.sn_url+"/nav_to.do?uri=textsearch.do?sysparm_search="+text);
+    });
+});
+
+
+//open options page on first execution
+chrome.runtime.onInstalled.addListener(function (object) {
+    chrome.tabs.create({url: "chrome://extensions/?options=eheminlgmlmepfdiooakjnlknhakemfo"}, function (tab) {
+        console.log("launching options page");
     });
 });
