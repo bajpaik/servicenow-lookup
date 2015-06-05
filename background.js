@@ -38,7 +38,8 @@ chrome.omnibox.onInputEntered.addListener(function(text){
 
 //open options page on first execution
 chrome.runtime.onInstalled.addListener(function (object) {
-    chrome.tabs.create({url: "chrome://extensions/?options=eheminlgmlmepfdiooakjnlknhakemfo"}, function (tab) {
+    chrome.runtime.openOptionsPage();
+    /*chrome.tabs.create({url: "chrome://extensions/?options=eheminlgmlmepfdiooakjnlknhakemfo"}, function (tab) {
         console.log("launching options page");
-    });
+    });*/
 });

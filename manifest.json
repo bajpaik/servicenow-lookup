@@ -15,7 +15,6 @@
         "scripts":["background.js"]
     },
     "minimum_chrome_version":"9",
-//    "options_page":"options.html",
     "options_ui": {
         "page": "options.html",
         "chrome_style": true
