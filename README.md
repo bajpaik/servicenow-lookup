@@ -13,6 +13,6 @@ This product uses/includes the following open source projects:
 
 * [Developer Omniboxes For Chrome](http://code.google.com/p/developer-omniboxes-for-chrome/) - [New BSD License](http://www.opensource.org/licenses/bsd-license.php) - Copyright (c) 2015, Rutul Patel
 
-* jQuery Lib - [Public Domain](http://code.jquery.com/jquery-2.1.4.min.js) 
+* jQuery Lib - [Source Code](http://code.jquery.com/jquery-2.1.4.min.js) [Public Domain](https://jquery.com)
 
 * Copyright (c) Rutul Patel - contact developer if license is incorrect through rutulpatel.rtl@gmail.com
