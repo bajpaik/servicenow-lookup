@@ -7,7 +7,7 @@ Service-Now Search is a Chrome extension for searching the tickets on Service-No
 You can install the extension from the Chrome Web Store:
 https://chrome.google.com/webstore/detail/sn-search/idkeaffmcbakhghefaafgpcdlnngkjge
     
-This product is not affiliated with Service-Now.
+This product is not affiliated with [Service-Now](https://www.servicenow.com/).
 
 This product uses/includes the following open source projects:
 
