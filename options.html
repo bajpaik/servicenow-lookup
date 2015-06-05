@@ -1,17 +1,31 @@
+<!-- 06:03:15 created by Rutul Patel aKa RTL aKa fACE -->
+
 <!DOCTYPE html>
 <html>
-<head><title>Service-Now extension options</title></head>
+<head><title>Service-Now extension options</title>
+<style>
+    body: { padding: 10px; }
+</style>
+</head>
+
 <body>
-    
-<form>
-Enter Service-Now full URL:
-<input type="text" id="sn_url" size="100" name="sn_url">
-<br>
-(Hint: - https://sandbox.service-now.com)
-</form>
+<center>
+<script src="jquery-2.1.4.min.js"></script>
+<form class="ui-field-contain">
+
+<h3>
+    <label>
+        Enter Service-Now full URL:  
+    </label>
+    <input type="text" id="sn_url" size="100" name="sn_url" height="80px" placeholder="Hint:- https://sandbox.service-now.com">
+    </h3>
 
 <div id="status"></div>
-<button id="save">Save</button>
+<input type="submit" class="ui-btn" id="save" value="Save">
+</form>
+
+</center>
+
 <script src="options.js"></script>
 </body>
 </html>
